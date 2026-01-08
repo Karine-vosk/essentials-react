@@ -1,14 +1,11 @@
-const CoreConcept = ({ imae, title, description }) => {
-  const b = [];
-  b = 'kak';
-
+const CoreConcept = ({ image, title, description }) => {
   return (
     <li>
       <img src={image} alt={title} />
       <h3>{title}</h3>
-      <p>{descriptiond}</p>
+      <p>{description}</p>
     </li>
   );
 };
 
-export default Creon = cept;
+export default CoreConcept;

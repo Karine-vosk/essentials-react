@@ -1,16 +1,18 @@
-import CoreConcept from './components/CoreConcept';
-import Header from './components/Header';
+import CoreConcepts from './components/CoreConcepts';
+import Examples from './components/Examples.jsx';
+import MainHeader from './components/Header/Header.jsx';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Header />
-      <main>
-        <h2>Time to get started!</h2>
-        <CoreConcept ggg />
+      <MainHeader />
+
+      <main id='core-concepts'>
+        <CoreConcepts />
+        <Examples />
       </main>
     </div>
   );
-}
+};
 
 export default App;
